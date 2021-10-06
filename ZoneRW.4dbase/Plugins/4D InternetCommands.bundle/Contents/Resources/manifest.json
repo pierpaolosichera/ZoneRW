@@ -1,0 +1,140 @@
+﻿{"name":"4D Internet Commands","id":15010,"commands":[{"theme":"IC Internet","syntax":"NET_NameToAddr(&S;&L):I"}
+,{"theme":"IC Internet","syntax":"NET_AddrToName(&L;&S;&S):I"}
+,{"theme":"IC TCP/IP","syntax":"TCP_Open(&S;&I;&L;&I):I"}
+,{"theme":"IC TCP/IP","syntax":"TCP_Close(&L):I"}
+,{"theme":"IC TCP/IP","syntax":"TCP_Send(&L;&T):I"}
+,{"theme":"IC TCP/IP","syntax":"TCP_Receive(&L;&T):I"}
+,{"theme":"IC TCP/IP","syntax":"TCP_Listen(&S;&I;&I;&I;&L):I"}
+,{"theme":"IC TCP/IP","syntax":"TCP_State(&L;&I):I"}
+,{"theme":"IC Internet","syntax":"NET_Resolve(&S;&S):I"}
+,{"theme":"IC Utilities","syntax":"IT_MyTCPAddr(&S;&S):I"}
+,{"theme":"IC Utilities","syntax":"IT_MacTCPVer(&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_QuickSend(&U;&U;&U;&U;&U;&L;&L;&U;&U):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_New(&L):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Clear(&L):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Send(&L;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Date(&L;&D;&H;&I;&I;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Host(&L;&S;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_To(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Cc(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Bcc(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_From(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_ReplyTo(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_InReplyTo(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Sender(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Subject(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Comments(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Body(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_References(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Encrypted(&L;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_AddHeader(&L;&S;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Attachment(&L;&U;&I;&I;&U;&U):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_GetPrefs(&I;&I;&L):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_SetPrefs(&I;&I;&L):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_Login(&S;&S;&S;&I;&L;&I):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_Logout(&L):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_BoxInfo(&L;&L;&L):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_Delete(&L;&L;&L):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_Reset(&L):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_MsgInfo(&L;&L;&L;&S):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_MsgLstInfo(&L;&L;&L;&Y;&Y;&Y):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_GetMessage(&L;&L;&L;&L;&T):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_MsgLst(&L;&L;&L;&Y;&Y;&Y;&Y):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_VerifyID(&L):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_UIDToNum(&L;&S;&L):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_Download(&L;&L;&I;&U):I"}
+,{"theme":"IC Downloaded Mail","syntax":"MSG_HasAttach(&U;&I):I"}
+,{"theme":"IC Downloaded Mail","syntax":"MSG_FindHeader(&U;&S;&T):I"}
+,{"theme":"IC Downloaded Mail","syntax":"MSG_MessageSize(&U;&L;&L;&L):I"}
+,{"theme":"IC Downloaded Mail","syntax":"MSG_GetHeaders(&U;&L;&L;&T):I"}
+,{"theme":"IC Downloaded Mail","syntax":"MSG_GetBody(&U;&L;&L;&U):I"}
+,{"theme":"IC Downloaded Mail","syntax":"MSG_GetMessage(&U;&L;&L;&U):I"}
+,{"theme":"IC Downloaded Mail","syntax":"MSG_Extract(&U;&I;&U;&Y):I"}
+,{"theme":"IC Downloaded Mail","syntax":"MSG_Delete(&U;&I):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_GetPrefs(&I;&U;&U):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_SetPrefs(&I;&U;&U):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_Login(&S;&S;&S;&L;&U):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_Logout(&L):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_Receive(&L;&U;&U;&I):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_Send(&L;&U;&U;&I):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_Progress(&I;&I;&S;&S;&S):I"}
+,{"theme":"IC Internet","syntax":"NET_Finger(&S;&S;&T):I"}
+,{"theme":"IC Internet","syntax":"NET_Ping(&S;&T;&I;&I):I"}
+,{"theme":"IC Internet","syntax":"NET_Time(&S;&D;&L;&I):I"}
+,{"theme":"IC Utilities","syntax":"IT_ErrorText(&I):S"}
+,{"theme":"IC Utilities","syntax":"IT_Encode(&U;&U;&I):I"}
+,{"theme":"IC Utilities","syntax":"IT_Decode(&U;&U;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Keywords(&L;&T;&I):I"}
+,{"theme":"IC Utilities","syntax":"IT_GetTimeOut(&I):I"}
+,{"theme":"IC Utilities","syntax":"IT_SetTimeOut(&I):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_GetFileInfo(&L;&U;&L;&D;&H):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_GetDirList(&L;&U;&Y;&Y;&Y;&Y;&Y):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_VerifyID(&L):I"}
+,{"theme":"IC Utilities","syntax":"IT_Version:S"}
+,{"theme":"IC Utilities","syntax":"IT_Platform:I"}
+,{"theme":"IC Utilities","syntax":"IT_MacTCPInit:I"}
+,{"theme":"IC Utilities","syntax":"IT_TCPversion(&I;&S):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_MacBinary(&L;&I):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_Delete(&L;&U):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_MakeDir(&L;&U):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_RemoveDir(&L;&U):I"}
+,{"theme":"IC Utilities","syntax":"IT_GetProxy(&I;&I;&S;&I;&T):I"}
+,{"theme":"IC Utilities","syntax":"IT_SetProxy(&I;&I;&S;&I;&T):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_Rename(&L;&U;&U):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_Append(&L;&U;&U;&I):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_GetType(&L;&S):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_SetType(&L;&S):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_System(&L;&S):I"}
+,{"theme":"IC Utilities","syntax":"IT_GetPort(&I;&I):I"}
+,{"theme":"IC Utilities","syntax":"IT_SetPort(&I;&I):I"}
+,{"theme":"IC POP3 Review Mail","syntax":"POP3_Charset(&I;&I):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Charset(&I;&I):I"}
+,{"theme":"IC TCP/IP","syntax":"TCP_ReceiveBLOB(&L;&O):I"}
+,{"theme":"IC TCP/IP","syntax":"TCP_SendBLOB(&L;&O):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_ChangeDir(&L;&U):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_PrintDir(&L;&U):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_SetPassive(&L;&I):I"}
+,{"theme":"IC File Transfer","syntax":"FTP_GetPassive(&L;&I):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_GetPrefs(&I;&U):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_SetPrefs(&I;&U):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_Login(&S;&S;&S;&L;&I):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_Logout(&L):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_Capability(&L;&T):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_SetCurrentMB(&L;&T;&L;&L;&T;&T;&L):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_MsgLstInfo(&L;&L;&L;&Y;&Y;&Y):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_MsgLst(&L;&L;&L;&Y;&Y;&Y;&Y):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_GetMessage(&L;&L;&L;&L;&I;&U;&I):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_Download(&L;&L;&I;&U;&I):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_GetFlags(&L;&L;&L;&Y;&Y):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_SetFlags(&L;&L;&L;&T;&I):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_Delete(&L;&L;&L):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_Search(&L;&T;&Y):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_CopyToMB(&L;&L;&L;&T;&I):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_CreateMB(&L;&T):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_DeleteMB(&L;&T):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_RenameMB(&L;&T;&T):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_SubscribeMB(&L;&T;&I):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_ListMBs(&L;&T;&T;&Y;&Y;&Y;&I):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_VerifyID(&L):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_GetMBStatus(&L;&T;&L;&L;&L;&L):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_GetCurrentMB(&L;&T):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_CloseCurrentMB(&L):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_MsgNumToUID(&L;&L;&L):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_UIDToMsgNum(&L;&L;&L):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_MsgInfo(&L;&L;&L;&L):I"}
+,{"theme":"IC IMAP Review Mail","syntax":"IMAP_MsgFetch(&L;&L;&T;&T):I"}
+,{"theme":"IC Downloaded Mail","syntax":"MSG_Charset(&I;&I):I"}
+,{"theme":"IC Downloaded Mail","syntax":"MSG_GetPrefs(&I;&U;&U):I"}
+,{"theme":"IC Downloaded Mail","syntax":"MSG_SetPrefs(&I;&U;&U):I"}
+,{"theme":"IC Utilities","syntax":"IT_PPPConnect(&S):I"}
+,{"theme":"IC Utilities","syntax":"IT_PPPDisconnect(&S):I"}
+,{"theme":"IC Utilities","syntax":"IT_PPPStatus(&S):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_Auth(&L;&S;&S;&I):I"}
+,{"theme":"IC UDP","syntax":"UDP_New(&I;&L):I"}
+,{"theme":"IC UDP","syntax":"UDP_Delete(&L):I"}
+,{"theme":"IC UDP","syntax":"UDP_SendTo(&L;&S;&I;&T):I"}
+,{"theme":"IC UDP","syntax":"UDP_SendBLOBTo(&L;&S;&I;&O):I"}
+,{"theme":"IC UDP","syntax":"UDP_ReceiveFrom(&L;&S;&I;&T):I"}
+,{"theme":"IC UDP","syntax":"UDP_ReceiveBLOBFrom(&L;&S;&I;&O):I"}
+,{"theme":"IC Send Mail","syntax":"SMTP_MessageID(&L;&T;&I):I"}
+]}

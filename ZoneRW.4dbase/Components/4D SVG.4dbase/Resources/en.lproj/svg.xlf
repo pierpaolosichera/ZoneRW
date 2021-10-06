@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+   Translation file for 4D products.
+   Copyright (C) 2007-2013 4D SAS.
+   This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" product-version="v14" source-language="en-US" target-language="en">
+      <header>
+         <prop-group name="Xliff-Editor.4dbase">
+            <prop prop-type="version">1.0</prop>
+         </prop-group>
+         <note>The character &apos;%&apos; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+         <group resname="xmlDefinitions">
+            <trans-unit id="1" resname="nameSpace_svg" translate="no">
+               <source>http://www.w3.org/2000/svg</source>
+            </trans-unit>
+            <trans-unit id="2" resname="nameSpace_xlink" translate="no">
+               <source>http://www.w3.org/1999/xlink</source>
+            </trans-unit>
+         </group>
+         <group resname="svgColor">
+            <trans-unit id="color_1" resname="color_1" translate="no">
+               <source>aliceblue</source>
+            </trans-unit>
+            <trans-unit id="color_2" resname="color_2" translate="no">
+               <source>antiquewhite</source>
+            </trans-unit>
+            <trans-unit id="color_3" resname="color_3" translate="no">
+               <source>aqua</source>
+            </trans-unit>
+            <trans-unit id="color_4" resname="color_4" translate="no">
+               <source>aquamarine</source>
+            </trans-unit>
+            <trans-unit id="color_5" resname="color_5" translate="no">
+               <source>azure</source>
+            </trans-unit>
+            <trans-unit id="color_6" resname="color_6" translate="no">
+               <source>beige</source>
+            </trans-unit>
+            <trans-unit id="color_7" resname="color_7" translate="no">
+               <source>bisque</source>
+            </trans-unit>
+            <trans-unit id="color_8" resname="color_8" translate="no">
+               <source>black</source>
+            </trans-unit>
+            <trans-unit id="color_9" resname="color_9" translate="no">
+               <source>blanchedalmond</source>
+            </trans-unit>
+            <trans-unit id="color_10" resname="color_10" translate="no">
+               <source>blue</source>
+            </trans-unit>
+            <trans-unit id="color_11" resname="color_11" translate="no">
+               <source>blueviolet</source>
+            </trans-unit>
+            <trans-unit id="color_12" resname="color_12" translate="no">
+               <source>brown</source>
+            </trans-unit>
+            <trans-unit id="color_13" resname="color_13" translate="no">
+               <source>burlywood</source>
+            </trans-unit>
+            <trans-unit id="color_14" resname="color_14" translate="no">
+               <source>cadetblue</source>
+            </trans-unit>
+            <trans-unit id="color_15" resname="color_15" translate="no">
+               <source>chartreuse</source>
+            </trans-unit>
+            <trans-unit id="color_16" resname="color_16" translate="no">
+               <source>chocolate</source>
+            </trans-unit>
+            <trans-unit id="color_17" resname="color_17" translate="no">
+               <source>coral</source>
+            </trans-unit>
+            <trans-unit id="color_18" resname="color_18" translate="no">
+               <source>cornflowerblue</source>
+            </trans-unit>
+            <trans-unit id="color_19" resname="color_19" translate="no">
+               <source>cornsilk</source>
+            </trans-unit>
+            <trans-unit id="color_20" resname="color_20" translate="no">
+               <source>crimson</source>
+            </trans-unit>
+            <trans-unit id="color_21" resname="color_21" translate="no">
+               <source>cyan</source>
+            </trans-unit>
+            <trans-unit id="color_22" resname="color_22" translate="no">
+               <source>darkblue</source>
+            </trans-unit>
+            <trans-unit id="color_23" resname="color_23" translate="no">
+               <source>darkcyan</source>
+            </trans-unit>
+            <trans-unit id="color_24" resname="color_24" translate="no">
+               <source>darkgoldenrod</source>
+            </trans-unit>
+            <trans-unit id="color_25" resname="color_25" translate="no">
+               <source>darkgray</source>
+            </trans-unit>
+            <trans-unit id="color_26" resname="color_26" translate="no">
+               <source>darkgreen</source>
+            </trans-unit>
+            <trans-unit id="color_27" resname="color_27" translate="no">
+               <source>darkgrey</source>
+            </trans-unit>
+            <trans-unit id="color_28" resname="color_28" translate="no">
+               <source>darkkhaki</source>
+            </trans-unit>
+            <trans-unit id="color_29" resname="color_29" translate="no">
+               <source>darkmagenta</source>
+            </trans-unit>
+            <trans-unit id="color_30" resname="color_30" translate="no">
+               <source>darkolivegreen</source>
+            </trans-unit>
+            <trans-unit id="color_31" resname="color_31" translate="no">
+               <source>darkorange</source>
+            </trans-unit>
+            <trans-unit id="color_32" resname="color_32" translate="no">
+               <source>darkorchid</source>
+            </trans-unit>
+            <trans-unit id="color_33" resname="color_33" translate="no">
+               <source>darkred</source>
+            </trans-unit>
+            <trans-unit id="color_34" resname="color_34" translate="no">
+               <source>darksalmon</source>
+            </trans-unit>
+            <trans-unit id="color_35" resname="color_35" translate="no">
+               <source>darkseagreen</source>
+            </trans-unit>
+            <trans-unit id="color_36" resname="color_36" translate="no">
+               <source>darkslateblue</source>
+            </trans-unit>
+            <trans-unit id="color_37" resname="color_37" translate="no">
+               <source>darkslategray</source>
+            </trans-unit>
+            <trans-unit id="color_38" resname="color_38" translate="no">
+               <source>darkslategrey</source>
+            </trans-unit>
+            <trans-unit id="color_39" resname="color_39" translate="no">
+               <source>darkturquoise</source>
+            </trans-unit>
+            <trans-unit id="color_40" resname="color_40" translate="no">
+               <source>darkviolet</source>
+            </trans-unit>
+            <trans-unit id="color_41" resname="color_41" translate="no">
+               <source>deeppink</source>
+            </trans-unit>
+            <trans-unit id="color_42" resname="color_42" translate="no">
+               <source>deepskyblue</source>
+            </trans-unit>
+            <trans-unit id="color_43" resname="color_43" translate="no">
+               <source>dimgray</source>
+            </trans-unit>
+            <trans-unit id="color_44" resname="color_44" translate="no">
+               <source>dimgrey</source>
+            </trans-unit>
+            <trans-unit id="color_45" resname="color_45" translate="no">
+               <source>dodgerblue</source>
+            </trans-unit>
+            <trans-unit id="color_46" resname="color_46" translate="no">
+               <source>firebrick</source>
+            </trans-unit>
+            <trans-unit id="color_47" resname="color_47" translate="no">
+               <source>floralwhite</source>
+            </trans-unit>
+            <trans-unit id="color_48" resname="color_48" translate="no">
+               <source>forestgreen</source>
+            </trans-unit>
+            <trans-unit id="color_49" resname="color_49" translate="no">
+               <source>fuchsia</source>
+            </trans-unit>
+            <trans-unit id="color_50" resname="color_50" translate="no">
+               <source>gainsboro</source>
+            </trans-unit>
+            <trans-unit id="color_51" resname="color_51" translate="no">
+               <source>ghostwhite</source>
+            </trans-unit>
+            <trans-unit id="color_52" resname="color_52" translate="no">
+               <source>gold</source>
+            </trans-unit>
+            <trans-unit id="color_53" resname="color_53" translate="no">
+               <source>goldenrod</source>
+            </trans-unit>
+            <trans-unit id="color_54" resname="color_54" translate="no">
+               <source>gray</source>
+            </trans-unit>
+            <trans-unit id="color_55" resname="color_55" translate="no">
+               <source>grey</source>
+            </trans-unit>
+            <trans-unit id="color_56" resname="color_56" translate="no">
+               <source>green</source>
+            </trans-unit>
+            <trans-unit id="color_57" resname="color_57" translate="no">
+               <source>greenyellow</source>
+            </trans-unit>
+            <trans-unit id="color_58" resname="color_58" translate="no">
+               <source>honeydew</source>
+            </trans-unit>
+            <trans-unit id="color_59" resname="color_59" translate="no">
+               <source>hotpink</source>
+            </trans-unit>
+            <trans-unit id="color_60" resname="color_60" translate="no">
+               <source>indianred</source>
+            </trans-unit>
+            <trans-unit id="color_61" resname="color_61" translate="no">
+               <source>indigo</source>
+            </trans-unit>
+            <trans-unit id="color_62" resname="color_62" translate="no">
+               <source>ivory</source>
+            </trans-unit>
+            <trans-unit id="color_63" resname="color_63" translate="no">
+               <source>khaki</source>
+            </trans-unit>
+            <trans-unit id="color_64" resname="color_64" translate="no">
+               <source>lavender</source>
+            </trans-unit>
+            <trans-unit id="color_65" resname="color_65" translate="no">
+               <source>lavenderblush</source>
+            </trans-unit>
+            <trans-unit id="color_66" resname="color_66" translate="no">
+               <source>lawngreen</source>
+            </trans-unit>
+            <trans-unit id="color_67" resname="color_67" translate="no">
+               <source>lemonchiffon</source>
+            </trans-unit>
+            <trans-unit id="color_68" resname="color_68" translate="no">
+               <source>lightblue</source>
+            </trans-unit>
+            <trans-unit id="color_69" resname="color_69" translate="no">
+               <source>lightcoral</source>
+            </trans-unit>
+            <trans-unit id="color_70" resname="color_70" translate="no">
+               <source>lightcyan</source>
+            </trans-unit>
+            <trans-unit id="color_71" resname="color_71" translate="no">
+               <source>lightgoldenrodyellow</source>
+            </trans-unit>
+            <trans-unit id="color_72" resname="color_72" translate="no">
+               <source>lightgray</source>
+            </trans-unit>
+            <trans-unit id="color_73" resname="color_73" translate="no">
+               <source>lightgreen</source>
+            </trans-unit>
+            <trans-unit id="color_74" resname="color_74" translate="no">
+               <source>lightgrey</source>
+            </trans-unit>
+            <trans-unit id="color_75" resname="color_75" translate="no">
+               <source>lightpink</source>
+            </trans-unit>
+            <trans-unit id="color_76" resname="color_76" translate="no">
+               <source>lightsalmon</source>
+            </trans-unit>
+            <trans-unit id="color_77" resname="color_77" translate="no">
+               <source>lightseagreen</source>
+            </trans-unit>
+            <trans-unit id="color_78" resname="color_78" translate="no">
+               <source>lightskyblue</source>
+            </trans-unit>
+            <trans-unit id="color_79" resname="color_79" translate="no">
+               <source>lightslategray</source>
+            </trans-unit>
+            <trans-unit id="color_80" resname="color_80" translate="no">
+               <source>lightslategrey</source>
+            </trans-unit>
+            <trans-unit id="color_81" resname="color_81" translate="no">
+               <source>lightsteelblue</source>
+            </trans-unit>
+            <trans-unit id="color_82" resname="color_82" translate="no">
+               <source>lightyellow</source>
+            </trans-unit>
+            <trans-unit id="color_83" resname="color_83" translate="no">
+               <source>lime</source>
+            </trans-unit>
+            <trans-unit id="color_84" resname="color_84" translate="no">
+               <source>limegreen</source>
+            </trans-unit>
+            <trans-unit id="color_85" resname="color_85" translate="no">
+               <source>linen</source>
+            </trans-unit>
+            <trans-unit id="color_86" resname="color_86" translate="no">
+               <source>magenta</source>
+            </trans-unit>
+            <trans-unit id="color_87" resname="color_87" translate="no">
+               <source>maroon</source>
+            </trans-unit>
+            <trans-unit id="color_88" resname="color_88" translate="no">
+               <source>mediumaquamarine</source>
+            </trans-unit>
+            <trans-unit id="color_89" resname="color_89" translate="no">
+               <source>mediumblue</source>
+            </trans-unit>
+            <trans-unit id="color_90" resname="color_90" translate="no">
+               <source>mediumorchid</source>
+            </trans-unit>
+            <trans-unit id="color_91" resname="color_91" translate="no">
+               <source>mediumpurple</source>
+            </trans-unit>
+            <trans-unit id="color_92" resname="color_92" translate="no">
+               <source>mediumseagreen</source>
+            </trans-unit>
+            <trans-unit id="color_93" resname="color_93" translate="no">
+               <source>mediumslateblue</source>
+            </trans-unit>
+            <trans-unit id="color_94" resname="color_94" translate="no">
+               <source>mediumspringgreen</source>
+            </trans-unit>
+            <trans-unit id="color_95" resname="color_95" translate="no">
+               <source>mediumturquoise</source>
+            </trans-unit>
+            <trans-unit id="color_96" resname="color_96" translate="no">
+               <source>mediumvioletred</source>
+            </trans-unit>
+            <trans-unit id="color_97" resname="color_97" translate="no">
+               <source>midnightblue</source>
+            </trans-unit>
+            <trans-unit id="color_98" resname="color_98" translate="no">
+               <source>mintcream</source>
+            </trans-unit>
+            <trans-unit id="color_99" resname="color_99" translate="no">
+               <source>mistyrose</source>
+            </trans-unit>
+            <trans-unit id="color_100" resname="color_100" translate="no">
+               <source>moccasin</source>
+            </trans-unit>
+            <trans-unit id="color_101" resname="color_101" translate="no">
+               <source>navajowhite</source>
+            </trans-unit>
+            <trans-unit id="color_102" resname="color_102" translate="no">
+               <source>navy</source>
+            </trans-unit>
+            <trans-unit id="color_103" resname="color_103" translate="no">
+               <source>oldlace</source>
+            </trans-unit>
+            <trans-unit id="color_104" resname="color_104" translate="no">
+               <source>olive</source>
+            </trans-unit>
+            <trans-unit id="color_105" resname="color_105" translate="no">
+               <source>olivedrab</source>
+            </trans-unit>
+            <trans-unit id="color_106" resname="color_106" translate="no">
+               <source>orange</source>
+            </trans-unit>
+            <trans-unit id="color_107" resname="color_107" translate="no">
+               <source>orangered</source>
+            </trans-unit>
+            <trans-unit id="color_108" resname="color_108" translate="no">
+               <source>orchid</source>
+            </trans-unit>
+            <trans-unit id="color_109" resname="color_109" translate="no">
+               <source>palegoldenrod</source>
+            </trans-unit>
+            <trans-unit id="color_110" resname="color_110" translate="no">
+               <source>palegreen</source>
+            </trans-unit>
+            <trans-unit id="color_111" resname="color_111" translate="no">
+               <source>paleturquoise</source>
+            </trans-unit>
+            <trans-unit id="color_112" resname="color_112" translate="no">
+               <source>palevioletred</source>
+            </trans-unit>
+            <trans-unit id="color_113" resname="color_113" translate="no">
+               <source>papayawhip</source>
+            </trans-unit>
+            <trans-unit id="color_114" resname="color_114" translate="no">
+               <source>peachpuff</source>
+            </trans-unit>
+            <trans-unit id="color_115" resname="color_115" translate="no">
+               <source>peru</source>
+            </trans-unit>
+            <trans-unit id="color_116" resname="color_116" translate="no">
+               <source>pink</source>
+            </trans-unit>
+            <trans-unit id="color_117" resname="color_117" translate="no">
+               <source>plum</source>
+            </trans-unit>
+            <trans-unit id="color_118" resname="color_118" translate="no">
+               <source>powderblue</source>
+            </trans-unit>
+            <trans-unit id="color_119" resname="color_119" translate="no">
+               <source>purple</source>
+            </trans-unit>
+            <trans-unit id="color_120" resname="color_120" translate="no">
+               <source>red</source>
+            </trans-unit>
+            <trans-unit id="color_121" resname="color_121" translate="no">
+               <source>rosybrown</source>
+            </trans-unit>
+            <trans-unit id="color_122" resname="color_122" translate="no">
+               <source>royalblue</source>
+            </trans-unit>
+            <trans-unit id="color_123" resname="color_123" translate="no">
+               <source>saddlebrown</source>
+            </trans-unit>
+            <trans-unit id="color_124" resname="color_124" translate="no">
+               <source>salmon</source>
+            </trans-unit>
+            <trans-unit id="color_125" resname="color_125" translate="no">
+               <source>sandybrown</source>
+            </trans-unit>
+            <trans-unit id="color_126" resname="color_126" translate="no">
+               <source>seagreen</source>
+            </trans-unit>
+            <trans-unit id="color_127" resname="color_127" translate="no">
+               <source>seashell</source>
+            </trans-unit>
+            <trans-unit id="color_128" resname="color_128" translate="no">
+               <source>sienna</source>
+            </trans-unit>
+            <trans-unit id="color_129" resname="color_129" translate="no">
+               <source>silver</source>
+            </trans-unit>
+            <trans-unit id="color_130" resname="color_130" translate="no">
+               <source>skyblue</source>
+            </trans-unit>
+            <trans-unit id="color_131" resname="color_131" translate="no">
+               <source>slateblue</source>
+            </trans-unit>
+            <trans-unit id="color_132" resname="color_132" translate="no">
+               <source>slategray</source>
+            </trans-unit>
+            <trans-unit id="color_133" resname="color_133" translate="no">
+               <source>slategrey</source>
+            </trans-unit>
+            <trans-unit id="color_134" resname="color_134" translate="no">
+               <source>snow</source>
+            </trans-unit>
+            <trans-unit id="color_135" resname="color_135" translate="no">
+               <source>springgreen</source>
+            </trans-unit>
+            <trans-unit id="color_136" resname="color_136" translate="no">
+               <source>steelblue</source>
+            </trans-unit>
+            <trans-unit id="color_137" resname="color_137" translate="no">
+               <source>tan</source>
+            </trans-unit>
+            <trans-unit id="color_138" resname="color_138" translate="no">
+               <source>teal</source>
+            </trans-unit>
+            <trans-unit id="color_139" resname="color_139" translate="no">
+               <source>thistle</source>
+            </trans-unit>
+            <trans-unit id="color_140" resname="color_140" translate="no">
+               <source>tomato</source>
+            </trans-unit>
+            <trans-unit id="color_141" resname="color_141" translate="no">
+               <source>turquoise</source>
+            </trans-unit>
+            <trans-unit id="color_142" resname="color_142" translate="no">
+               <source>violet</source>
+            </trans-unit>
+            <trans-unit id="color_143" resname="color_143" translate="no">
+               <source>wheat</source>
+            </trans-unit>
+            <trans-unit id="color_144" resname="color_144" translate="no">
+               <source>white</source>
+            </trans-unit>
+            <trans-unit id="color_145" resname="color_145" translate="no">
+               <source>whitesmoke</source>
+            </trans-unit>
+            <trans-unit id="color_146" resname="color_146" translate="no">
+               <source>yellow</source>
+            </trans-unit>
+            <trans-unit id="color_147" resname="color_147" translate="no">
+               <source>yellowgreen</source>
+            </trans-unit>
+         </group>
+         <group resname="messages">
+            <trans-unit id="278" resname="versionWarning">
+               <source>Warning:
+
+This component works fully only with a version 11.3 or higher of 4D v11 SQL!</source>
+               <target>Warning:
+
+This component works fully only with a version 11.3 or higher of 4D v11 SQL!</target>
+            </trans-unit>
+         </group>
+      </body>
+   </file>
+</xliff>
