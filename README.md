@@ -6,7 +6,7 @@ ZoneRW è stato sviluppato utilizzando 4th Dimension.
 Tra le molteplici caratteristiche della piattaforma 4D sono stati sfruttati il supporto nativo XML con la libreria Xerces di Apache Foundation, l’accesso alla struttura tramite lo standard DOM (Document Object Model), la gestione del formato SVG (Scalable Vector Graphics), sia come visualizzazione che creazione e modifica.
 
 ## Installazione
-Per utilizzare ZoneRW collegati alla pagina di download di 4D (https://it.4d.com/product-download/4D-v18-LTS) per scaricare 4Dv18 (sarà richiesta di iscrizione al sito).
+Per utilizzare ZoneRW collegati alla pagina di download di 4D (https://it.4d.com/product-download/4D-v18-LTS) per scaricare 4Dv18 (sarà richiesta l'iscrizione al sito).
 Installato 4D, usa l'applicatione 4D per aprire ZoneRW:
   - su Windows apri il file ZoneRW.4DC
   - su MacOS apri il pacchetto ZoneRW.4dbase
