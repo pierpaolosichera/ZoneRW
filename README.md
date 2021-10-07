@@ -1,5 +1,5 @@
 # ZoneRW
-ZONERW è un tool WYSIWYG che, a partire dalla dichiarazione delle surface con i relativi tag graphic e zone, mostra le zone codificate nel file TEI con i relativi attributi xml:id, consentendone la modifica al volo (aggiornamento delle coordinate, aggiunta o rimozione di zone) generando il codice TEI relativo. Il risultato a video può essere esportato in immagini.
+ZoneRW è un tool WYSIWYG che, a partire dalla dichiarazione delle surface con i relativi tag graphic e zone, mostra le zone codificate nel file TEI con i relativi attributi xml:id, consentendone la modifica al volo (aggiornamento delle coordinate, aggiunta o rimozione di zone) generando il codice TEI relativo. Il risultato a video può essere esportato in immagini.
 
 ## Ambiente
 ZoneRW è stato sviluppato utilizzando 4th Dimension.
@@ -36,9 +36,9 @@ Come utilizzare la finestra principale di ZoneRW.
 - Il pulsante Esporta immagine esporta un file con l’immagine mostrata
 - È possibile modificare i dati relativi alle zone manualmente inserendo i le coordinate.
 - Quando il cursore si trova all'interno dell'elenco delle zone, con i tasti freccia su/freccia giù è possibile spostarsi tra le righe.
-- Quando il cursore si trova nelle colonne ulx o uly, cliccando sull’immagine le coordinate del punto in alto a sinistra si aggiornano automaticamente in base al clic. Stessa cosa quando il cursore si trova su lrx e lry. 
+- Quando il cursore si trova nelle colonne ulx o uly, cliccando sull’immagine le coordinate del punto in alto a sinistra si aggiornano automaticamente in base al clic. Stessa cosa quando il cursore si trova su lrx e lry.
 - Quando il cursore si trova nella colonna points, ogni clic genera un nuovo vertice per il poligono irregolare definito dai punti nel campo points.
 - La zona attualmente in fase di modifica viene colorata di giallo
 - Le zone definite come coordinate di un rettangolo vengono colorate in rosso.
-- Le zone definite come coordinate poliono tramite vengono colorate in viola.
-- Un ruler orizzontale permette di modificare il livello di zoom dell’immagine.
+- Le zone definite come coordinate di un poligono vengono colorate in viola.
+- Un termometro orizzontale permette di modificare il livello di zoom dell’immagine.
