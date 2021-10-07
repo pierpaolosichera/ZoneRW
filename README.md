@@ -14,13 +14,19 @@ Installato 4D, usa l'applicatione 4D per aprire ZoneRW:
 ## Specifiche XML-TEI
 Dopo avere scelto la cartella contenente i file XML-TEI, ZoneRW mostra l'elenco dei file come impostata all'avvio.
 Quando l’utente sceglie un file, ZoneRW mostra le immagini richiamate nel file.
-Scelta un'immagine, ZoneRW la carica dalla cartella impostata per la ricerca delle imamagini e cerca il tag \<surface\> relativo alla pagina scelta; intercettato l’elemento \<surface\>, ZoneRW ricerca tra i figli 
+Scelta un'immagine, ZoneRW la carica dalla cartella impostata per la ricerca delle imamagini
+ZoneRW cerca l'immagine:
+- nella cartella impostata all'avvio;
+- in una sottocartella avente lo stesso nome del file immagine;
+- in una sottocartella avente lo stesso nome del file XML senza l'estensione;
+- in una sottocartella avente lo stesso nome del file XML senza l'estensione sostituendo il carattere "." col carattere "_".
+
+Se l'immagine è stata trovata, ZoneRW cerca il tag \<surface\> relativo alla pagina scelta; intercettato l’elemento \<surface\>, ZoneRW ricerca tra i figli 
 - il tag \<graphic\> per trovare l’immagine corrispondente (attributo @url);
 - la dimensione dichiarata (attributo @width), in modo da calcolare un eventuale rapporto di scala tra immagine e coordinate);
 - tutti i tag \<zone\> (anche annidati) per disegnare le zone a video. 
 
 L’elenco delle zone viene popolato con i valori degli attributi @xml:id, @rendition, e le coordinate con @points, @ulx, @uly, @lrx e @lry.
-  
 Nell’angolo in alto a sinistra di ogni zona viene mostrato il relativo id.
 
 ## Funzionalità
