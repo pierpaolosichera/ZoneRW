@@ -12,7 +12,7 @@ Installato 4D, usa l'applicatione 4D per aprire ZoneRW:
   - su MacOS apri il pacchetto ZoneRW.4dbase
 
 ## Specifiche XML-TEI
-Dopo avere scelto la cartella contenente i file XML-TEI, ZoneRW mostra l'elenco dei file come impostata all'avvio.
+Dopo avere scelto la cartella contenente i file XML-TEI, ZoneRW mostra l'elenco dei file dalla cartella impostata all'avvio.
 Quando l’utente sceglie un file, ZoneRW mostra le immagini richiamate nel file.
 Scelta un'immagine, ZoneRW la carica dalla cartella impostata per la ricerca delle imamagini
 ZoneRW cerca l'immagine:
