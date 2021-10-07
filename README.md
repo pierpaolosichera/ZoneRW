@@ -31,12 +31,14 @@ Nell’angolo in alto a sinistra di ogni zona viene mostrato il relativo id.
 
 ## Funzionalità
 Come utilizzare la finestra principale di ZoneRW.
-- I pulsanti Aggiungi zona ed Elimina zona rispettivamente aggiungono o eliminano una zona
-- Il pulsante Genera TEI inserisce negli appunti il testo contenente le zone in formato XML-TEI
-- Il pulsante Esporta immagine esporta un file con l’immagine mostrata
-- È possibile modificare i dati relativi alle zone manualmente inserendo i le coordinate.
+- I pulsanti "Aggiungi zona" ed "Elimina zona" rispettivamente aggiungono o eliminano una zona.
+- Il pulsante Genera TEI inserisce negli appunti il testo contenente le zone in formato XML-TEI.
+- Il pulsante Esporta immagine esporta un file con l’immagine mostrata.
+- È possibile modificare i dati relativi alle zone manualmente inserendo le coordinate.
 - Quando il cursore si trova all'interno dell'elenco delle zone, con i tasti freccia su/freccia giù è possibile spostarsi tra le righe.
 - Quando il cursore si trova nelle colonne ulx o uly, cliccando sull’immagine le coordinate del punto in alto a sinistra si aggiornano automaticamente in base al clic. Stessa cosa quando il cursore si trova su lrx e lry.
+- Il check box "Modifica" nasconde gli elenchi dei documenti e delle immagini in modo da evitare di cambiare pagina durante la modifica delle zone.
+- Quando si clicca sull'immagine per aggiornare una delle coordinate ulx, uly, lrx o lry, il cursore resta nel campo della coordinata. Attivando il check box "Clic & valida", il cursore si sposta automaticamente alla coordinata successiva o crea una nuova zona se necessario. 
 - Quando il cursore si trova nella colonna points, ogni clic genera un nuovo vertice per il poligono irregolare definito dai punti nel campo points.
 - La zona attualmente in fase di modifica viene colorata di giallo
 - Le zone definite come coordinate di un rettangolo vengono colorate in rosso.
