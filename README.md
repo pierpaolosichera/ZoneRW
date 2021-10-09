@@ -14,7 +14,7 @@ Installato 4D, usa l'applicatione 4D per aprire ZoneRW:
 ## Specifiche XML-TEI
 Dopo avere scelto la cartella contenente i file XML-TEI, ZoneRW mostra l'elenco dei file dalla cartella impostata all'avvio.
 Quando l’utente sceglie un file, ZoneRW mostra le immagini richiamate nel file.
-Scelta un'immagine, ZoneRW la carica dalla cartella impostata per la ricerca delle imamagini
+Scelta un'immagine, ZoneRW la carica dalla cartella impostata per la ricerca delle immagini.
 ZoneRW cerca l'immagine:
 - nella cartella impostata all'avvio;
 - in una sottocartella avente lo stesso nome del file immagine;
