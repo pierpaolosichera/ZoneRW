@@ -8,8 +8,8 @@ Tra le molteplici caratteristiche della piattaforma 4D sono stati sfruttati il s
 ## Installazione
 Per utilizzare ZoneRW collegati alla pagina di download di 4D (https://it.4d.com/product-download/4D-v18-LTS) per scaricare 4Dv18 (sarà richiesta l'iscrizione al sito).
 Installato 4D, usa l'applicatione 4D per aprire ZoneRW:
-  - su Windows apri il file ZoneRW.4DC
-  - su MacOS apri il pacchetto ZoneRW.4dbase
+  - su Windows nella cartella 4D/4D v18.5/4D apri il file 4D.exe; scegli "File -> Open -> Local application ->" e apri il file ZoneRW.4DC;
+  - su MacOS nalla cartella /Applicazioni/4D v18.5/ apri il file 4D.app; scegli poi "File -> Open -> Local application ->" e apri il pacchetto ZoneRW.4dbase che hai scaricato.
 
 ## Specifiche XML-TEI
 Dopo avere scelto la cartella contenente i file XML-TEI, ZoneRW mostra l'elenco dei file dalla cartella impostata all'avvio.
