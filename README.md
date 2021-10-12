@@ -8,11 +8,12 @@ Tra le molteplici caratteristiche della piattaforma 4D sono stati sfruttati il s
 ## Installazione
 Per utilizzare ZoneRW collegati alla pagina di download di 4D (https://it.4d.com/product-download/4D-v18-LTS) per scaricare 4Dv18 (sarà richiesta l'iscrizione al sito).
 Installato 4D, usa l'applicatione 4D per aprire ZoneRW:
-  - su Windows nella cartella 4D/4D v18.5/4D apri il file 4D.exe; scegli "File -> Open -> Local application ->" e apri il file ZoneRW.4DC;
+  - su Windows nella cartella 4D/4D v18.5/4D apri il file 4D.exe; scegli "File -> Open -> Local application ->" e apri il file ZoneRW.4DB nella cartella ZoneRW.4dbase che hai scaricato;
   - su MacOS nalla cartella /Applicazioni/4D v18.5/ apri il file 4D.app; scegli poi "File -> Open -> Local application ->" e apri il pacchetto ZoneRW.4dbase che hai scaricato.
 
 ## Specifiche XML-TEI
-Dopo avere scelto la cartella contenente i file XML-TEI, ZoneRW mostra l'elenco dei file dalla cartella impostata all'avvio.
+Nella finestra di avvio cliccare sullo spazio "XML folder", per scegliere la cartella contenente i file XML, e sullo spazio "Picture folder" per scegliere la cartella contenente le immagini. Le impostazioni scelte verranno memorizzate per i successivi avvii del programma.
+Dopp aver cliccato su "Start", ZoneRW mostra l'elenco dei file dalla cartella impostata all'avvio.
 Quando l’utente sceglie un file, ZoneRW mostra le immagini richiamate nel file.
 Scelta un'immagine, ZoneRW la carica dalla cartella impostata per la ricerca delle immagini.
 ZoneRW cerca l'immagine:
@@ -44,3 +45,7 @@ Come utilizzare la finestra principale di ZoneRW.
 - Le zone definite come coordinate di un rettangolo vengono colorate in rosso.
 - Le zone definite come coordinate di un poligono vengono colorate in viola.
 - Un termometro orizzontale permette di modificare il livello di zoom dell’immagine.
+
+## Consigli di utilizzo
+- L'uso del check box "Clic & valida" è molto utile quando bisogna inserire le zone. Per operazioni di correzione fine è più utie tenere il check box disattivato in modo da poter cliccare più volte sulla stessa coordinata fino a trovare la posizione corretta.
+- Il clic sulla barra di scorrimento dell'immagine è un clic, quindi se il cursore si trova su ulx, uly, lrx, lry o points il clic verrà intercettato come nuova coordinata. Quindi per effettuare lo scroll posizionarsi su uno degli altri elementi della lista delle zone oppure usare la funzione di scroll del mouse/trackpad.
