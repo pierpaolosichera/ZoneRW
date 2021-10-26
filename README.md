@@ -1,6 +1,9 @@
 # ZoneRW
 ZoneRW è un tool WYSIWYG che, a partire dalla dichiarazione delle surface con i relativi tag graphic e zone, mostra le zone codificate nel file TEI con i relativi attributi xml:id, consentendone la modifica al volo (aggiornamento delle coordinate, aggiunta o rimozione di zone) generando il codice TEI relativo. Il risultato a video può essere esportato in immagini.
 
+## Cita questo software
+[![DOI](https://zenodo.org/badge/414180951.svg)](https://zenodo.org/badge/latestdoi/414180951)
+
 ## Ambiente
 ZoneRW è stato sviluppato utilizzando 4th Dimension.
 Tra le molteplici caratteristiche della piattaforma 4D sono stati sfruttati il supporto nativo XML con la libreria Xerces di Apache Foundation, l’accesso alla struttura tramite lo standard DOM (Document Object Model), la gestione del formato SVG (Scalable Vector Graphics), sia come visualizzazione che creazione e modifica.
@@ -53,6 +56,9 @@ Come utilizzare la finestra principale di ZoneRW.
 
 # ZoneRW
 ZoneRW is a WYSIWYG tool that, starting from the declaration of the surfaces with the relative graphic and zone tags, shows the zones encoded in the TEI file with the relative xml: id attributes, allowing them to be modified on the fly (updating the coordinates, adding or removing zone) generating the relative TEI code. The result on the screen can be exported to images.
+
+## Cite this code
+[![DOI](https://zenodo.org/badge/414180951.svg)](https://zenodo.org/badge/latestdoi/414180951)
 
 ## Environment
 ZoneRW is developed using 4th Dimension.
