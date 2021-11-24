@@ -1,4 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
 *.js linguist-vendored=false
 *.4db linguist-language=4D
+*.4dd linguist-language=4D
+*.4match linguist-language=4D
