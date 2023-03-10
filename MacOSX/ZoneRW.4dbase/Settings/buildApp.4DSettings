@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Preferences4D>
+
+  <BuildApp>
+    <DataFilePath>./ZoneRW.4DD</DataFilePath>
+    <BuildCompiled>False</BuildCompiled>
+    <IncludeAssociatedFolders>True</IncludeAssociatedFolders>
+    <BuildComponent>False</BuildComponent>
+    <BuildApplicationSerialized>True</BuildApplicationSerialized>
+    <SourcesFiles>
+      <RuntimeVL>
+        <RuntimeVLIncludeIt>True</RuntimeVLIncludeIt>
+        <RuntimeVLWinFolder>C:\Program Files\4D\4D v18.6\4D Volume Desktop\</RuntimeVLWinFolder></RuntimeVL>
+      <CS>
+        <ServerIncludeIt>False</ServerIncludeIt>
+        <ClientWinIncludeIt>False</ClientWinIncludeIt>
+        <ClientMacIncludeIt>False</ClientMacIncludeIt>
+      </CS>
+    </SourcesFiles>
+    <CS>
+      <BuildServerApplication>False</BuildServerApplication>
+      <BuildCSUpgradeable>False</BuildCSUpgradeable>
+      <CurrentVers>1</CurrentVers>
+      <HardLink></HardLink>
+    </CS>
+    <BuildApplicationName>ZoneRW</BuildApplicationName>
+    <BuildWinDestFolder>\Compiled\ZoneRW_Build\</BuildWinDestFolder>
+    <ArrayExcludedPluginName>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedPluginName>
+    <ArrayExcludedPluginID>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedPluginID>
+    <ArrayExcludedComponentName>
+      <ItemsCount>4</ItemsCount>
+      <Item1>4D Progress</Item1>
+      <Item2>4D ViewPro</Item2>
+      <Item3>4D Widgets</Item3>
+      <Item4>4D WritePro Interface</Item4>
+    </ArrayExcludedComponentName>
+    <Licenses>
+      <ArrayLicenseWin>
+        <ItemsCount>1</ItemsCount>
+        <Item1>C:\ProgramData\4D\Licenses\4UUD180UUS0018PJ1Z0558A.license4D</Item1>
+      </ArrayLicenseWin>
+    </Licenses>
+    <SignApplication>
+      <MacSignature>False</MacSignature>
+      <MacCertificate></MacCertificate>
+    </SignApplication>
+  </BuildApp>
+
+</Preferences4D>
