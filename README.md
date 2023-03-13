@@ -17,6 +17,8 @@ scarica la cartella MacOSX e decomprimi l'archivio compresso contenuto in "Insta
 
 ## Specifiche XML-TEI
 Nella finestra di avvio cliccare sullo spazio "XML folder", per scegliere la cartella contenente i file XML, e sullo spazio "Picture folder" per scegliere la cartella contenente le immagini. Le impostazioni scelte verranno memorizzate per i successivi avvii del programma.
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/01_Home.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/01_Home.gif)
+
 Dopo aver cliccato su "Start", ZoneRW mostra l'elenco dei file dalla cartella impostata all'avvio.
 Quando l’utente sceglie un file, ZoneRW mostra le immagini richiamate nel file.
 Scelta un'immagine, ZoneRW la carica dalla cartella impostata per la ricerca delle immagini.
@@ -30,9 +32,9 @@ Se l'immagine è stata trovata, ZoneRW cerca il tag \<surface\> relativo alla pa
 - il tag \<graphic\> per trovare l’immagine corrispondente (attributo @url);
 - la dimensione dichiarata (attributo @width), in modo da calcolare un eventuale rapporto di scala tra immagine e coordinate;
 - tutti i tag \<zone\> (anche annidati) per disegnare le zone a video. 
-
 L’elenco delle zone viene popolato con i valori degli attributi @xml:id, @rendition, e le coordinate con @points, @ulx, @uly, @lrx e @lry.
 Nell’angolo in alto a sinistra di ogni zona viene mostrato il relativo id.
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/02_Start.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/02_Start.gif)
 
 ## Funzionalità
 Come utilizzare la finestra principale di ZoneRW.
@@ -43,12 +45,24 @@ Come utilizzare la finestra principale di ZoneRW.
 - Quando il cursore si trova all'interno dell'elenco delle zone, con i tasti freccia su/freccia giù è possibile spostarsi tra le righe.
 - Quando il cursore si trova nelle colonne ulx o uly, cliccando sull’immagine le coordinate del punto in alto a sinistra si aggiornano automaticamente in base al clic. Stessa cosa quando il cursore si trova su lrx e lry.
 - Il check box "Modifica" nasconde gli elenchi dei documenti e delle immagini in modo da evitare di cambiare pagina durante la modifica delle zone.
-- Quando si clicca sull'immagine per aggiornare una delle coordinate ulx, uly, lrx o lry, il cursore resta nel campo della coordinata. Attivando il check box "Clic & valida", il cursore si sposta automaticamente alla coordinata successiva o crea una nuova zona se necessario. 
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/03_Modify.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/03_Modify.gif)
+
+- Quando si clicca sull'immagine per aggiornare una delle coordinate ulx, uly, lrx o lry, il cursore resta nel campo della coordinata. Attivando il check box "Clic & valida", il cursore si sposta automaticamente alla coordinata successiva o crea una nuova zona se necessario.
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/04_Modify2.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/04_Modify2.gif)
+
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/05_Hotspot.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/05_Hotspot.gif)
+
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/06_Rendition.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/06_Rendition.gif)
+
 - Quando il cursore si trova nella colonna points, ogni clic genera un nuovo vertice per il poligono irregolare definito dai punti nel campo points.
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/07_Line.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/07_Line.gif)
+
 - La zona attualmente in fase di modifica viene colorata di giallo
 - Le zone definite come coordinate di un rettangolo vengono colorate in rosso.
 - Le zone definite come coordinate di un poligono vengono colorate in viola.
 - Un termometro orizzontale permette di modificare il livello di zoom dell’immagine.
+- È possibile esportare le zone in file immagine.
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/08_ExportTEI.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/08_ExportTEI.gif)
 
 ## Consigli di utilizzo
 - L'uso del check box "Clic & valida" è molto utile quando bisogna inserire le zone. Per operazioni di correzione fine è più utile tenere il check box disattivato in modo da poter cliccare più volte sulla stessa coordinata fino a trovare la posizione corretta.
@@ -74,6 +88,8 @@ download the MacOSX folder and unzip the compressed archive contained in "Instal
 
 ## XML-TEI specifications
 In the start window, click on the "XML folder" space to select the folder containing the XML files, and on the "Picture folder" space to select the folder containing the images. The chosen settings will be stored for subsequent program starts.
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/01_Home.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/01_Home.gif)
+
 After clicking on "Start", ZoneRW shows the list of files from the folder set at startup.
 When the user chooses a file, ZoneRW shows the images recalled in the file.
 Once an image has been chosen, ZoneRW loads it from the folder set for image search.
@@ -90,6 +106,7 @@ If the image has been found, ZoneRW looks for the \<surface\> tag related to the
 
 The list of zones is populated with the values of the attributes @xml:id, @rendition, and the coordinates with @points, @ulx, @uly, @lrx and @lry.
 The relative id is shown in the upper left corner of each area.
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/02_Start.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/02_Start.gif)
 
 ## Functionality
 How to use the ZoneRW main window.
@@ -100,12 +117,24 @@ How to use the ZoneRW main window.
 - When the cursor is in the zone list, you can move between the lines with the up/down arrow keys.
 - When the cursor is in the ulx or uly columns, clicking on the image, the coordinates of the point at the top left are automatically updated based on the click. Same thing when the cursor is on lrx and lry.
 - The "Edit" check box hides the lists of documents and images in order to avoid changing pages when editing zones.
-- When clicking on the image in order to update one of the ulx, uly, lrx or lry coordinates, the cursor remains in the coordinate field. By activating the "Click & valid" check box, the cursor automatically moves to the next coordinate or creates a new zone if necessary.
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/03_Modify.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/03_Modify.gif)
+
+- When clicking on the image in order to update one of the ulx, uly, lrx or lry coordinates, the cursor remains in the coordinate field. By activating the "Click & validate" check box, the cursor automatically moves to the next coordinate or creates a new zone if necessary.
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/04_Modify2.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/04_Modify2.gif)
+
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/05_Hotspot.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/05_Hotspot.gif)
+
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/06_Rendition.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/06_Rendition.gif)
+
 - When the cursor is in the points column, each click generates a new vertex for the irregular polygon defined by the points in the points field.
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/07_Line.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/07_Line.gif)
+
 - Area currently being edited is colored yellow
 - Areas defined as coordinates of a rectangle are colored red.
 - Areas defined as coordinates of a polygon are colored purple.
 - A horizontal thermometer allows you to change the zoom level of the image.
+- It is possible to export zones in images.
+![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/08_ExportTEI.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/08_ExportTEI.gif)
 
 ## Usage tips
 - The use of the "Click & valid" check box is very useful when entering zones. For fine correction operations it is more useful to keep the check box deactivated so that you can click several times on the same coordinate until you find the correct position.
