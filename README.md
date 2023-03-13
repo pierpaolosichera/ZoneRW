@@ -61,8 +61,9 @@ Come utilizzare la finestra principale di ZoneRW.
 - Le zone definite come coordinate di un rettangolo vengono colorate in rosso.
 - Le zone definite come coordinate di un poligono vengono colorate in viola.
 - Un termometro orizzontale permette di modificare il livello di zoom dell’immagine.
-- È possibile esportare le zone in file immagine.
+- È possibile esportare le zone in un testo XML-TEI da incollare nel file originale.
 ![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/08_ExportTEI.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/08_ExportTEI.gif)
+- È possibile esportare le zone in file immagini.
 
 ## Consigli di utilizzo
 - L'uso del check box "Clic & valida" è molto utile quando bisogna inserire le zone. Per operazioni di correzione fine è più utile tenere il check box disattivato in modo da poter cliccare più volte sulla stessa coordinata fino a trovare la posizione corretta.
@@ -133,9 +134,10 @@ How to use the ZoneRW main window.
 - Areas defined as coordinates of a rectangle are colored red.
 - Areas defined as coordinates of a polygon are colored purple.
 - A horizontal thermometer allows you to change the zoom level of the image.
-- It is possible to export zones in images.
+- It is possible to export zones in XML-TEI text.
 ![https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/08_ExportTEI.gif](https://github.com/pierpaolosichera/ZoneRW/blob/main/README_images/08_ExportTEI.gif)
+- It is possible to export zones in images.
 
 ## Usage tips
-- The use of the "Click & valid" check box is very useful when entering zones. For fine correction operations it is more useful to keep the check box deactivated so that you can click several times on the same coordinate until you find the correct position.
+- The use of the "Click & validate" check box is very useful when entering zones. For fine correction operations it is more useful to keep the check box deactivated so that you can click several times on the same coordinate until you find the correct position.
 - Clicking on the image scroll bar is a click, so if the cursor is on ulx, uly, lrx, lry or points the click will be intercepted as a new coordinate. Then to scroll, go to one of the other elements of the zone list or use the mouse/trackpad scroll function.
