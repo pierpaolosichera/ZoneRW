@@ -9,10 +9,11 @@ ZoneRW è stato sviluppato utilizzando 4th Dimension.
 Tra le molteplici caratteristiche della piattaforma 4D sono stati sfruttati il supporto nativo XML con la libreria Xerces di Apache Foundation, l’accesso alla struttura tramite lo standard DOM (Document Object Model), la gestione del formato SVG (Scalable Vector Graphics), sia come visualizzazione che creazione e modifica.
 
 ## Installazione
-Per utilizzare ZoneRW collegati alla pagina di download di 4D (https://it.4d.com/product-download/4D-v18-LTS) per scaricare 4Dv18 (sarà richiesta l'iscrizione al sito).
-Installato 4D, usa l'applicazione 4D per aprire ZoneRW:
-  - su Windows nella cartella 4D/4D v18.5/4D apri il file 4D.exe; scegli "File -> Open -> Local application ->" e apri il file ZoneRW.4DB nella cartella ZoneRW.4dbase che hai scaricato;
-  - su MacOS nalla cartella /Applicazioni/4D v18.5/ apri il file 4D.app; scegli poi "File -> Open -> Local application ->" e apri il pacchetto ZoneRW.4dbase che hai scaricato.
+Per utilizzare ZoneRW:
+### su Windows
+scarica la cartella Windows, decomprimi l'archivio che hai scaricato ed esegui ZoneRW.exe
+### su MacOSX
+scarica la cartella MacOSX e decomprimi l'archivio compresso contenuto in "Installer 4D". Installa 4D.18.6. Installato 4D, usa l'applicazione 4D per aprire ZoneRW (probabilmente si trova nella cartella /Applicazioni/4D v18.6/); apri il file 4D.app; scegli poi "File -> Open -> Local application ->" e apri il pacchetto ZoneRW.4dbase che hai scaricato.
 
 ## Specifiche XML-TEI
 Nella finestra di avvio cliccare sullo spazio "XML folder", per scegliere la cartella contenente i file XML, e sullo spazio "Picture folder" per scegliere la cartella contenente le immagini. Le impostazioni scelte verranno memorizzate per i successivi avvii del programma.
@@ -65,10 +66,11 @@ ZoneRW is developed using 4th Dimension.
 Among the many features of the 4D platform, the native XML support with the Apache Foundation's Xerces library, the access to the structure through the DOM (Document Object Model) standard, the management of the SVG (Scalable Vector Graphics) format, both as visualization that creation and modification.
 
 ## Installation
-To use ZoneRW connect to the 4D download page (https://it.4d.com/product-download/4D-v18-LTS) to download 4Dv18 (registration required).
-Installed 4D, use the 4D application to open ZoneRW:
-  - on Windows, in the 4D/4D v18.5/4D folder, open the 4D.exe file; choose "File -> Open -> Local application ->" and open the ZoneRW.4DB file in the ZoneRW.4dbase folder you downloaded;
-  - on MacOS, in the folder /Applications/4D v18.5/, open the 4D.app file; then choose "File -> Open -> Local application ->" and open the ZoneRW.4dbase package you downloaded.
+### on Windows
+download the Windows folder, unzip the archive you downloaded and run ZoneRW.exe
+### on MacOSX
+download the MacOSX folder and unzip the compressed archive contained in "Installer 4D". Install 4D.18.6. Once 4D is installed, use the 4D application to open ZoneRW (probably located in /Applications/4D v18.6/ folder); open the 4D.app file; then choose "File -> Open -> Local application ->" and open the ZoneRW.4dbase package you downloaded.
+
 
 ## XML-TEI specifications
 In the start window, click on the "XML folder" space to select the folder containing the XML files, and on the "Picture folder" space to select the folder containing the images. The chosen settings will be stored for subsequent program starts.
